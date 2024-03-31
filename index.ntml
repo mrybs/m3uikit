@@ -1,0 +1,16 @@
+doctype ntml 0.2
+
+import (style, "text/css") "styles.css"
+
+title "UiKit"
+
+body(lang="ru"){
+	ThreeDots{}
+	LInput{}[nl]
+	MButton{code #{√}}MButton{code #{π}}MButton{code #{^}}MButton{code #{!}}SButton{code #{˅}}[nl]
+	CButton{AC}CButton{code #{( )}}CButton{code #{%}}CButton{code #{÷}}[nl]
+	CButton{7}CButton{8}CButton{9}CButton{x}[nl]
+	CButton{4}CButton{5}CButton{6}CButton{-}[nl]
+	CButton{1}CButton{2}CButton{3}CButton{+}[nl]
+	CButton{0}CButton{,}CButton{<-}CButton{code #{=}}
+} 

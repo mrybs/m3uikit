@@ -1,0 +1,16 @@
+{
+    "host": "192.168.50.122",
+    "port": 7777,
+    "debug": true,
+    "ssl": {
+        "fullchain": false,
+        "key": false
+    },
+    "apps": [
+        "uikit"
+    ],
+    "smart_navigation": true,
+    "delay": 0.05,
+    "max_bytes_per_recieve": 4096,
+    "max_bytes": 4294967296
+}
