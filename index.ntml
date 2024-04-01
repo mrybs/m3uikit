@@ -1,16 +1,20 @@
 doctype ntml 0.2
 
 import (style, "text/css") "styles.css"
+import (style, "text/css") "m3uikit.css"
+import (style, "text/css") "m3uikit_color.css"
 
 title "UiKit"
 
-body(lang="ru"){
-	ThreeDots{}
-	LInput{}[nl]
-	MButton{code #{√}}MButton{code #{π}}MButton{code #{^}}MButton{code #{!}}SButton{code #{˅}}[nl]
-	CButton{AC}CButton{code #{( )}}CButton{code #{%}}CButton{code #{÷}}[nl]
-	CButton{7}CButton{8}CButton{9}CButton{x}[nl]
-	CButton{4}CButton{5}CButton{6}CButton{-}[nl]
-	CButton{1}CButton{2}CButton{3}CButton{+}[nl]
-	CButton{0}CButton{,}CButton{<-}CButton{code #{=}}
+body(lang="ru", class="background"){
+	ThreeDots{code #{︙}}
+	CalculatorInput(class="primarycontainer"){}[nl]
+	Container{
+		MButton(class="nonecolor"){code #{√}}MButton(class="nonecolor"){code #{π}}MButton(class="nonecolor"){code #{^}}MButton(class="nonecolor"){code #{!}}SButton{code #{˅}}[nl]
+		CButton(class="tetriarycontainer"){AC}CButton(class="secondarycontainer"){code #{( )}}CButton(class="secondarycontainer"){code #{%}}CButton(class="secondarycontainer"){code #{÷}}[nl]
+		CButton(class="surfacevariant"){7}CButton(class="surfacevariant"){8}CButton(class="surfacevariant"){9}CButton(class="secondarycontainer"){x}[nl]
+		CButton(class="surfacevariant"){4}CButton(class="surfacevariant"){5}CButton(class="surfacevariant"){6}CButton(class="secondarycontainer"){-}[nl]
+		CButton(class="surfacevariant"){1}CButton(class="surfacevariant"){2}CButton(class="surfacevariant"){3}CButton(class="secondarycontainer"){+}[nl]
+		CButton(class="surfacevariant"){0}CButton(class="surfacevariant"){,}CButton(class="surfacevariant"){<-}CButton(class="primarycontainer"){code #{=}}
+	}
 } 

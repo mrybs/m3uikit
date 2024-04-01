@@ -1,0 +1,85 @@
+::selection {
+	background: #914748;
+}
+
+
+.primary{
+	background-color: #914748;
+	color: #FFFFFF;
+}
+.secondary{
+	background-color: #725658;
+	color: #FFFFFF;
+}
+.tetriary{
+	background-color: #765927;
+	color: #FFFFFF;
+}
+.background{
+	background-color: #FEFBFA;
+	color: #1F1A1A;
+}
+.surface{
+	background-color: #FEFBFA;
+	color: #1F1A1A;
+}
+.surfacevariant{
+	background-color: #F0DEDD;
+	color: #504443;
+}
+
+.onprimary{
+	background-color: #FFFFFF;
+	color: #914748;
+}
+.onsecondary{
+	background-color: #FFFFFF;
+	color: #725658;
+}
+.ontetriary{
+	background-color: #FFFFFF;
+	color: #765927;
+}
+.onbackground{
+	background-color: #1F1A1A;
+	color: #FEFBFA;
+}
+.onsurface{
+	background-color: #1F1A1A;
+	color: #FEFBFA;
+}
+.onsurfacevariant{
+	background-color: #504443;
+	color: #F0DEDD;
+}
+
+.primarycontainer{
+	background-color: #F9DADB;
+	color: #3A060B;
+}
+.secondarycontainer{
+	background-color: #F9DADA;
+	color: #291617;
+}
+.tetriarycontainer{
+	background-color: #FADEB1;
+	color: #271803;
+}
+
+.onprimarycontainer{
+	background-color: #3A060B;
+	color: #F9DADB;
+}
+.onsecondarycontainer{
+	background-color: #291617;
+	color: #F9DADA;
+}
+.ontetriarycontainer{
+	background-color: #271803;
+	color: #FADEB1;
+}
+
+.nonecolor{
+	background-color: #00000000;
+	color: #1F1A1A;
+}

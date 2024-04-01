@@ -1,0 +1,70 @@
+.Button{
+	padding: 20px;
+	border-radius: 20px;
+	border: 0;
+	font-size: 16px;
+	text-align: center;
+}
+.CButton{
+	padding: auto;
+	border-radius: 40px;
+	border: 0;
+	font-size: 24px;
+	font-weight: bold;
+	width: 64px;
+	height: 64px;
+	margin: 3px;
+	text-align: center;
+}
+.MButton{
+	padding: auto;
+	border-radius: 40px;
+	border: 0;
+	font-size: 20px;
+	font-weight: bold;
+	width: 55px;
+	height: 40px;
+	margin: 3px;
+	text-align: center;
+}
+.SButton{
+	padding: auto;
+	border-radius: 40px;
+	border: 0;
+	font-size: 10px;
+	font-weight: bold;
+	width: 26px;
+	height: 26px;
+	margin: 3px;
+	text-align: center;
+}
+.CalculatorInput{
+	width: calc(100% - 16px);
+	height: 125px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-align: right;
+	font-size: 48px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-right: 15px;
+}
+.ThreeDots{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #00000000;
+	border: 0;
+}
+.Button-animation{
+	transition: border-radius 0.2s ease-out;
+}
+.Button-animation:hover{
+	border-radius: 15px;
+}
+
+.Container{
+	margin: 3px;
+}
